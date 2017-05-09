@@ -65,6 +65,9 @@ public interface Authenticator {
 	 * 
 	 * 
 	 * @return a Json string.
+	 * 
+	 * @throws IcatException
+	 *             if there are problems.
 	 */
-	String getDescription();
+	String getDescription() throws IcatException;
 }
