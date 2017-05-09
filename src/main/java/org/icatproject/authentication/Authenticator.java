@@ -7,8 +7,7 @@ import javax.ejb.Remote;
 import org.icatproject.core.IcatException;
 
 /**
- * An interface to be implemented by an ICAT authenticator plugin. An
- * implementation might make use of the {@link AddressChecker}.
+ * An interface to be implemented by an ICAT authenticator plugin.
  */
 @Remote
 public interface Authenticator {
@@ -23,8 +22,7 @@ public interface Authenticator {
 	 * 
 	 * @param remoteAddr
 	 *            a string representation of the numeric form of an IP4 or IP6
-	 *            address. This may be used by the authenticator making use of
-	 *            the {@link AddressChecker} to determine the outcome.
+	 *            address.
 	 * 
 	 * @return an Authentication object
 	 * 
