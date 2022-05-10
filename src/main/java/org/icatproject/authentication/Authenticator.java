@@ -2,7 +2,7 @@ package org.icatproject.authentication;
 
 import java.util.Map;
 
-import javax.ejb.Remote;
+import jakarta.ejb.Remote;
 
 import org.icatproject.core.IcatException;
 

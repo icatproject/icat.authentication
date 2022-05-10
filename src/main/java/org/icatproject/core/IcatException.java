@@ -1,7 +1,7 @@
 package org.icatproject.core;
 
-import javax.ejb.ApplicationException;
-import javax.ws.rs.core.Response.Status;
+import jakarta.ejb.ApplicationException;
+import jakarta.ws.rs.core.Response.Status;
 
 @SuppressWarnings("serial")
 @ApplicationException(rollback = true)
