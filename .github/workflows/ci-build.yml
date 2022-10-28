@@ -28,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Checkout icat-autnetication
+      - name: Checkout icat-authentication
         uses: actions/checkout@v2
 
       - name: Run Build
